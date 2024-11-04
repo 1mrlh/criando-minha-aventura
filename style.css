@@ -1,0 +1,33 @@
+body {
+  background-color: hsl(309, 29%, 47%);
+  color:  hsl(300, 86%, 95%);
+  font-family: "Klee One", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  margin: 0;
+}
+
+button {
+  background-color: #7700ff;
+  color: rgb(255, 255, 255);
+  font-family: "Klee One", sans-serif;
+}
+
+.passo {
+  display: none;
+}
+
+.passo.ativo {
+  display:block;
+}
+
+main {
+  text-align: center;
+  max-width: 90%;
+}
+
+img {
+  max-width: 90%;
+}
